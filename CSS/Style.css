@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.background-colors {
+    position: relative;
+    background: cadetblue;
+    padding-bottom: 135px;
+    width: 100%;
+    height: 500px;
+}
+
+.mouse {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    left: 10%;
+    bottom: 18%;
+}
+
+/* .paddding-bottom{
+    padding-bottom: 12px;
+} */
+
+.contact-me {
+    background: #ff632c;
+    padding: 15px;
+    /* width: 30%;
+    height: 60px; */
+}
+
+.circle-11-border {
+    position: absolute;
+    width: 3%;
+    height: 10%;
+    border-radius: 50%;
+    border: 1px solid #ff632c;
+    top: 15%;
+    right: 22%;
+}
+
+.circle-12-border {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    background: aliceblue;
+    width: 13px;
+    height: 14px;
+    top: 24%;
+    left: 70%;
+    border-radius: 50%;
+}
+
+.circle-13-border {
+    position: absolute;
+    border: 1px solid #fff;
+    width: 1%;
+    height: 4%;
+    top: 8%;
+    right: 34%;
+    border-radius: 50%;
+}
+
+.circle-14-border {
+    position: absolute;
+    border: 1px solid #fff;
+    width: 4%;
+    height: 10%;
+    top: 30%;
+    left: 56%;
+    border-radius: 50%;
+}
+
+
+img.img-K3B_2 {
+    width: 100%;
+    height: 225px;
+}
+
+div.position-section {
+    background-color: aliceblue;
+    position: relative;
+    transform: translateY(-70px);
+    width: 89%;
+
+    padding: 45px 90px 45px 90px;
+}
+
+div.position-section h2 {
+    color: #ff632c;
+}
+
+section div.card-site {
+    width: 100%;
+    height: auto;
+}
+
+div.two-section {
+    background-color: #EAEDF1;
+    width: 100%;
+    height: 1486px;
+}
+
+img.milardi {
+
+    width: 85%;
+    height: 70%;
+    top: 50px;
+    left: 14px;
+}
+
+
+div.border-image {
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 342px;
+
+    border: 2px solid #FF632C;
+    border-radius: 7px;
+}
+
+.circle-border {
+    box-sizing: border-box;
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    border: 2px solid #008287;
+    top: -12px;
+    left: -13px;
+}
+
+.circle-2-border {
+    box-sizing: border-box;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #008287;
+    bottom: -20px;
+    right: -24px;
+}
+
+small.text-small-color {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #008287;
+
+}
+
+.text-small-color::before {
+    position: absolute;
+    width: 5px;
+    height: 12px;
+    /* background-color: #008287; */
+    border: 1px solid #008287;
+    border-radius: 5px;
+}
+
+button.view-more {
+    background: #ff632c;
+    color: white;
+    /* width: 30%;
+    height: 60px; */
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.wordpress-portfolio {
+    margin-top: 6rem;
+}
+
+.group-of-all {
+    width: 100%;
+    height: 615px;
+    position: relative;
+}
+
+/* div.border-img {
+    margin-top: 5rem;
+    border: 2px solid #008287;
+    width: 80%;
+    height: 500px;
+    border-radius: 7px;
+}
+
+div.circle-3-border {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    border: 2px solid #ff632c;
+    top: -25px;
+    right: -25px;
+}
+
+div.circle-4-border {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: 2px solid #ff632c;
+    bottom: -28px;
+    left: -28px;
+}
+
+div.image-one{
+    width: 100%;
+    height: 100%;
+}
+
+img.prince-img{
+    width: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img.MRM-img {
+    position: absolute;
+    width: 23%;
+    height: 30%;
+    top: 50%;
+    left: -18%;
+    transform: translate(50%, -50%);
+}
+
+img.Global-img{
+    position: absolute;
+    width: 23%;
+    height: 30%;
+    top: 50%;
+    left: 70%;
+    transform: translate(50%, -50%);
+} */
+div.button-white {
+    padding: 0 30px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eaedf1;
+}
+
+button.btn-position {
+    color: white;
+    background-color: #ff632c;
+    /* width: 100%;
+    height: 100%;
+    */
+}
+
+.Some-My-Projects {
+    background-color: #008287;
+    height: 100%;
+    padding-bottom: 12px;
+}
+
+.project-name {
+    background-color: #eaedf1;
+    width: 100%;
+    height: 400px;
+}
+
+img.img-3,
+.img-4,
+.img-5 {
+    width: 45%;
+    height: 20%;
+    align-self: center;
+    padding-top: 20px;
+}
+
+div.three-block {
+    transform: translateY(-70px);
+}
+
+div.card-padding {
+    width: 100%;
+    height: 100%;
+}
+
+a.btn-position {
+    color: #fff;
+    background-color: #ff632c;
+    /* width: 60%; */
+    /* height: 30%; */
+
+}
+
+a.btn-start {
+    color: #fff;
+    background-color: #ff632c;
+    /* width: 15%; */
+    padding: 10px;
+
+}
+
+div.last-section-middel {
+    width: 100%;
+    height: 100%;
+
+    transform: translateY(-110px);
+    padding: 35px 0 36px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.last-section-middel h2 {
+    color: #FF632C;
+}
+
+section.footer {
+    background-color: #008287;
+}
+
+div.footer-color {
+    line-height: 3;
+    word-spacing: 4px;
+}
+
+div.f-icon a {
+    background-color: #ff632c;
+}
+
+.hover-effect:hover {
+    color: black;
+    background-color: #77a5ad;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .circle-11-border {
+        width: 7%;
+        height: 10%;
+        right: 10%;
+    }
+
+    .circle-13-border {
+        width: 2%;
+        height: 3%;
+    }
+
+    .circle-14-border {
+        width: 5%;
+        height: 8%;
+        left: 55%;
+    }
+
+
+    .mouse {
+        width: 9%;
+        height: 6%;
+    }
+
+    div.border-img {
+        width: 92%;
+        height: 350px;
+        margin: 0;
+    }
+
+    .wordpress-portfolio {
+        margin-top: 3rem;
+    }
+
+    .group-of-all {
+        height: 345px;
+    }
+
+    div.button-white {
+        bottom: -12px;
+    }
+
+    /* div.position-section {
+        height: 310px;
+        font-size: 72%;
+        margin-bottom: -40px;
+    } */
+    button.btn-position {
+        height: 38px;
+        font-size: 9px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .circle-11-border {
+        width: 8%;
+        height: 7%;
+        right: 7%;
+    }
+
+    .circle-13-border {
+        width: 2%;
+        height: 2%;
+    }
+
+    .circle-14-border {
+        width: 7%;
+        height: 7%;
+        left: 54%;
+    }
+
+
+    .mouse {
+        width: 14%;
+        height: 6%;
+    }
+
+    div.position-section {
+        height: 310px;
+        font-size: 72%;
+        margin-bottom: -40px;
+    }
+
+    div.three-block {
+        /* width: 424px; */
+        width: 100%;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .circle-2-border {
+        width: 36px;
+        height: 36px;
+        right: -14px
+    }
+
+    .compay-name {
+        width: 376px;
+    }
+
+    a.btn-position {
+        font-size: 10px;
+        margin-left: -4px;
+    }
+
+    .btn-start {
+        width: 21%;
+        font-size: 13px;
+    }
+
+}
